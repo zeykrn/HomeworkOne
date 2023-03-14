@@ -61,6 +61,6 @@ $$
 **Question 10** In a code chunk calculate 3 + 4.
 
 ```{r}
-sum (3 + 4)
+3 + 4
 ```
 
