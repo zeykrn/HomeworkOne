@@ -1,0 +1,66 @@
+---
+title: "Homework 1"
+author: "Zeynep Korun - 20080393"
+---
+
+```{r global_options, include=FALSE}
+# Do not delete or modify this chunk.
+# We will cover chunk options later.
+# This is required for Question 7
+library(knitr)
+opts_chunk$set(fig.align="center", fig.height=4, fig.width=5.5)
+```
+
+**Question 1** With Markdown write a sentence that has one word in bold.
+
+I've been learning **chinese** for five months.
+
+**Question 2** With Markdown write a sentence that has one word in italic.
+
+I've been learning _chinese_ for five months.
+
+**Question 3** With Markdown write a sentence that has one word in italic bold.
+
+I've been learning **_chinese_** for five months.
+
+**Question 4** With Markdown write an unordered list with three items.
+
+* Pencil
+* Cup
+* Flour
+
+**Question 5** With Markdown write an ordered list with three items.
+
+1. Sugar
+2. Flour
+3. Baking powder
+
+**Question 6** With Markdown give a link to your favorite webpage.
+
+[Kitap Yurdu](https://www.kitapyurdu.com/?gclid=Cj0KCQjwk7ugBhDIARIsAGuvgPaPhZ3QrOY_wGBzrCQKzNxN-eQpZ7rpCN1QFEq3rFnaoFY-ROUc2DYaAskSEALw_wcB)
+
+**Question 7** With Markdown add a cat picture.
+
+![BLACK KITTEN](https://i.pinimg.com/originals/15/c9/cc/15c9ccad7e0b9e151ff1a3f68e6fb22b.jpg)
+
+**Question 8** With Rmarkdown insert a code chunk and give an example of a simple mathematical calculation in it.
+
+```{r}
+x <-7
+y <-5
+sum(x + y)
+```
+i write 38, it shows the value of x
+
+**Question 9** With $LaTeX$ write your favorite equation in block form.
+
+$$
+\cos (2\theta) = \cos^2 \theta - \sin^2 \theta
+$$
+
+**Question 10** In a code chunk calculate 3 + 4.
+
+```{r}
+sum (3 + 4)
+```
+
